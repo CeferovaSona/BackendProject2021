@@ -43,8 +43,8 @@
                     <div class="col-md-4 col-sm-4 col-xs-12">
                         <div class="header-top-right text-right">
                             <ul>
-                                <li><a href="login.html">login</a></li>
-                                <li><a href="signup.html">signup</a></li>
+                                <li><a asp-controller="Login">login</a></li>
+                                <li><a asp-controller="Signup">signup</a></li>
                             </ul>
                         </div>
                     </div>
@@ -56,7 +56,7 @@
                 <div class="row">
                     <div class="col-md-3 col-sm-3 col-xs-6">
                         <div class="logo">
-                            <a href="index.html"><img src="~/img/logo/logo2.png" alt="eduhome" /></a>
+                            <a asp-controller="Main"><img src="~/img/logo/logo2.png" alt="eduhome" /></a>
                         </div>
                     </div>
                     <div class="col-md-9 col-sm-9 col-xs-6">
@@ -66,16 +66,16 @@
                                 <nav>
                                     <ul>
                                         <li>
-                                            <a href="index.html">Home</a>
+                                            <a asp-controller="Main">Home</a>
                                             <ul>
-                                                <li><a href="index.html">Home One</a></li>
+                                                <li><a asp-controller="Main">Home One</a></li>
                                                 <li><a href="index-2.html">Home Two</a></li>
                                                 <li><a href="index-3.html">Home Three</a></li>
                                                 <li><a href="index-4.html">Home Four</a></li>
                                                 <li><a href="index-5.html">Home Five</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="about.html">About</a></li>
+                                        <li><a asp-controller="About">About</a></li>
                                         <li>
                                             <a href="course.html">courses</a>
                                             <ul>
@@ -93,10 +93,10 @@
                                             </ul>
                                         </li>
                                         <li class="hidden-sm">
-                                            <a href="teacher.html">teacher</a>
+                                            <a asp-controller="Teacher">teacher</a>
                                             <ul>
-                                                <li><a href="teacher.html">teacher</a></li>
-                                                <li><a href="teacher-details.html">teacher details</a></li>
+                                                <li><a asp-controller="Teacher">teacher</a></li>
+                                                <li><a asp-controller="TeacherDetail">teacher details</a></li>
                                             </ul>
                                         </li>
                                         <li>
